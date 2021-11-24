@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Project Title",
+      "type": "textfield",
+      "id": "Field_1b23xtn",
+      "key": "projectTitle",
+      "description": "Add the title of the proposed project",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Functional requirements",
+      "type": "checkbox",
+      "id": "Field_1og7cgv",
+      "key": "functionalRequirements"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Non functional requirements mentioned",
+      "type": "radio",
+      "id": "Field_0gxutxn",
+      "key": "nonFunctionalRequirements"
+    },
+    {
+      "label": "Number of students",
+      "type": "number",
+      "id": "Field_0mde0zu",
+      "key": "nbrOfStudents",
+      "validate": {
+        "min": 2,
+        "max": 4
+      }
+    },
+    {
+      "label": "Sponsor name",
+      "type": "textfield",
+      "id": "Field_0ko3nix",
+      "key": "sponsorName"
+    },
+    {
+      "values": [
+        {
+          "label": "Data analysis",
+          "value": "DataAnalysis"
+        },
+        {
+          "label": "Machine Learning",
+          "value": "ML"
+        },
+        {
+          "label": "C++",
+          "value": "c++"
+        }
+      ],
+      "label": "Prerequisites",
+      "type": "select",
+      "id": "Field_079aaiw",
+      "key": "prerequisites",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Project accepted",
+      "type": "radio",
+      "id": "Field_1ftx8bv",
+      "key": "projectAccepted",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0xyimfv"
+}

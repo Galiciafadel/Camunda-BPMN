@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.camunda.demo.FYP_BPMN_Mini_projet.ProcessUnitTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 5.164 sec <<< FAILURE! - in com.camunda.demo.FYP_BPMN_Mini_projet.ProcessUnitTest
+testHappyPath(com.camunda.demo.FYP_BPMN_Mini_projet.ProcessUnitTest)  Time elapsed: 0.074 sec  <<< ERROR!
+org.camunda.bpm.engine.exception.NullValueException: resource 'process.bpmn' not found: inputStream is null
+
+testHappyPath(com.camunda.demo.FYP_BPMN_Mini_projet.ProcessUnitTest)  Time elapsed: 0.075 sec  <<< ERROR!
+org.camunda.bpm.engine.exception.NullValueException: no processes deployed with key 'FYP_BPMN_Mini-projet': processDefinition is null
+	at com.camunda.demo.FYP_BPMN_Mini_projet.ProcessUnitTest.testHappyPath(ProcessUnitTest.java:40)
+
+com.camunda.demo.FYP_BPMN_Mini_projet.ProcessUnitTest  Time elapsed: 0.076 sec  <<< ERROR!
+java.util.NoSuchElementException
+
